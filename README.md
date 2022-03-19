@@ -1,10 +1,11 @@
-Attention: Work In Process
+# Attention: Work In Process
 
-MNTN Home Page
+# Trevland Home Page
 
-Pages: https://drzverg.github.io/MNTN/
+## Pages: 
+https://drzverg.github.io/trevland/
 
-For this project were used:
+## For this project were used:
 
-Template: https://www.figma.store/download/mntn-free-landing-page-for-figma/
-Intersection Observer Guide: https://misha.agency/javascript/intersection-observer-api.html
+### Template:
+https://figma.community/files/file/504-shablon-traveland-landing-page-dlya-figma/
