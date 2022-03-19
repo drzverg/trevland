@@ -1,0 +1,29 @@
+extends /layouts/default/default.pug
+
+mixin popular-box(img, location, desc)
+  .popular-box
+    img.popular-box__photo(src= img alt= location+' photo')
+    p.popular-box__title= location 
+    p.popular-box__desc= desc
+
+block content
+  section.main
+    .main__body.content-wrapper
+      .main__content 
+        h1.main__title Railtrips To Here, There And Everywhere!
+        p.main__text We all wish to start our year the best way possible and also according to a common belief if you have a great start to your.
+        a.main__link.main__link_btn.btn.link-btn(href="404.html") Explore more
+  section.popular
+    .popular__body.content-wrapper 
+      .popular__content 
+        h2.popular__title.section-title Popular Location
+        p.popular__text.section-text For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and voyagers— from island hopping in the  
+        .popular__container 
+          +popular-box('./assets/img/istanbul.jpg', 'Istanbul, Turkey', 'Istanbul is a major city in Turkey that straddles Europe.')
+          +popular-box('./assets/img/kl.jpg', 'Kuala Lumpur, Malaysia', 'A 272-step long trek leads you to this century.')
+          +popular-box('./assets/img/seoul.jpg', 'Seoul, South Korea', 'South Korea officially the Republic of Korea is a country in East Asia.')      
+  section.special
+   
+  section.news 
+  
+

@@ -1,0 +1,61 @@
+//Variables ==========================================================================================================================================
+
+  //Screen sizes ------------------------------
+    $bp1: 1023.9px;
+    $bp2: 959.9px;
+    $bp3: 767.9px;
+    $bp4: 479.9px;
+
+  //Wrappers ------------------------------
+    $maxWidthSite: 1600px;
+    $maxWidthContent: 1140px + 20px;
+
+  //Text ------------------------------
+    $defaultFont: "Roboto";
+    $textColorGeneral: rgba(0, 0, 0, 0.6);
+
+//Null ===============================================================================================================================================
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+//Fonts ==============================================================================================================================================
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: local($font_name), url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff") format("woff"), url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+@include font("Roboto", "Roboto-Regular", "400", "normal");
+@include font("Roboto", "Roboto-Medium", "500", "normal");
+@include font("Gelasio", "Gelasio-Medium", "500", "normal");
+@include font("Gelasio", "Gelasio-Bold", "700", "normal");
+@include font("Ribeye", "Ribeye-Regular", "400", "normal");
+
+.site-wrapper {
+  max-width: $maxWidthSite;
+  font-family: $defaultFont;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  box-sizing: border-box;
+  max-width: $maxWidthContent;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+  @media (max-width: $bp1) {
+    max-width: 939.9px;
+  }
+  @media (max-width: $bp2) {
+    max-width: 747.9px;
+  }
+}
