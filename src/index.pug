@@ -6,6 +6,17 @@ mixin popular-box(img, location, desc)
     p.popular-box__title= location 
     p.popular-box__desc= desc
 
+mixin special-box(img, title, place, raiting, days, nights, price)
+  .special-box 
+    img.special-box__photo(src= img, alt= title+ ' photo')
+    p.special-box__title= title
+    .special-box__place-container   
+      p.special-box__place= place 
+      p.special-box__raiting= raiting 
+    p.special-box__days= days + ' Day ' + nights + ' Nights'
+    p.special-box__price= price
+
+
 block content
   section.main
     .main__body.content-wrapper
@@ -23,7 +34,29 @@ block content
           +popular-box('./assets/img/kl.jpg', 'Kuala Lumpur, Malaysia', 'A 272-step long trek leads you to this century.')
           +popular-box('./assets/img/seoul.jpg', 'Seoul, South Korea', 'South Korea officially the Republic of Korea is a country in East Asia.')      
   section.special
-   
-  section.news 
-  
+    .special__body 
+      .special__content 
+        h2.special__title.section-title Special Offers
+        p.special__text.section-text With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates,
+        .special__slider.slider 
+          +special-box('./assets/img/usa-best-places-new-york 1.jpg', 'Statue of Liberty', 'New York', '4.8', '4', '5', '450')
+          +special-box('./assets/img/china-great-wall-and-mountain 1.jpg', 'The Great Wall', 'China', '4.9', '7', '8', '850')
+          +special-box('./assets/img/Discover-sajek-valley 2.jpg', 'Dizin', 'Iran', '4.6', '5', '6', '550')
+          +special-box('./assets/img/Discover-sajek-valley 1.jpg', 'Sajek Valley', 'Bangladesh', '4.7', '3', '4', '400')
+          +special-box('./assets/img/Discover-sajek-valley 3.jpg', 'Osaka Castle', 'Japan', '4.7', '4', '5', '700')
+        .slider__navigation 
+          button.slider__button.slider__button_left
+          .slider__middle-buttons
+            .slider__middle-btn
+            .slider__middle-btn.slider__middle-btn_active 
+            .slider__middle-btn
+          button.slider__button.slider__button_right 
+  section.news
+    .news__body.content-wrapper 
+      .news__content 
+        h2.news__title.section-title From Blog & News
+        p.news__text.section-text Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.
+      .news__container 
+        .news__left-side 
+        .news__right-side
 

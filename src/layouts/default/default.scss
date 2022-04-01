@@ -1,24 +1,24 @@
 //Variables ==========================================================================================================================================
 
-  //Screen sizes ------------------------------
-    $bp1: 1023.9px;
-    $bp2: 959.9px;
-    $bp3: 767.9px;
-    $bp4: 479.9px;
+//Screen sizes ------------------------------
+$bp1: 1023.9px;
+$bp2: 959.9px;
+$bp3: 767.9px;
+$bp4: 479.9px;
 
-  //Wrappers ------------------------------
-    $maxWidthSite: 1600px;
-    $maxWidthContent: 1140px + 20px;
+//Wrappers ------------------------------
+$maxWidthSite: 1600px;
+$maxWidthContent: 1140px + 20px;
 
-  //Text ------------------------------
-    $defaultFont: "Roboto";
-    $textColorGeneral: rgba(0, 0, 0, 0.6);
+//Text ------------------------------
+$defaultFont: "Roboto";
+$textColorGeneral: rgba(0, 0, 0, 0.6);
 
 //Null ===============================================================================================================================================
 * {
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 //Fonts ==============================================================================================================================================
@@ -26,7 +26,9 @@
   @font-face {
     font-family: $font_name;
     font-display: swap;
-    src: local($font_name), url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff") format("woff"), url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff2") format("woff2");
+    src: local($font_name),
+      url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff") format("woff"),
+      url("/src/assets/fonts/#{$font_name}/#{$file_name}.woff2") format("woff2");
     font-weight: #{$weight};
     font-style: #{$style};
   }
@@ -58,4 +60,34 @@
   @media (max-width: $bp2) {
     max-width: 747.9px;
   }
+}
+
+// Logo ============================================
+.logo {
+  font-family: Ribeye;
+  font-weight: 400;
+  font-size: 1.333em;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+// Buttons =========================================
+
+.btn {
+  box-sizing: border-box;
+  padding: 0 5px;
+  background-color: #c9453b;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 0.889em;
+  color: #ffffff;
+}
+
+.link-btn {
+  text-decoration: none;
+}
+
+.func-btn {
 }

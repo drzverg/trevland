@@ -6,7 +6,6 @@ var __webpack_exports__ = {};
 
 
 //Burger menu
-
 const burger = document.querySelector(".burger-menu");
 const menuBody = document.querySelector(".header-menu__body");
 
@@ -15,13 +14,13 @@ burger.addEventListener("click", function () {
     document.body.style.overflowY = "";
     burger.classList.remove("burger-menu_active");
     menuBody.classList.remove("header-menu__body_active");
-  } 
-  else {
+  } else {
     document.body.style.overflowY = "hidden";
     burger.classList.toggle("burger-menu_active");
     menuBody.classList.toggle("header-menu__body_active");
   }
-})
+});
+
 ;// CONCATENATED MODULE: ./src/layouts/default/default.js
 //Default styles import
 

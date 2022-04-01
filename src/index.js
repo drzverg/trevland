@@ -1,11 +1,24 @@
 //Import Styles
-import '../src/styles.scss';
+import "../src/styles.scss";
 
 //Import images
+//Main
+import "../src/assets/img/main-background.jpg";
+//Popular
 import "../src/assets/img/istanbul.jpg";
 import "../src/assets/img/kl.jpg";
-import "../src/assets/img/main-background.jpg";
 import "../src/assets/img/seoul.jpg";
+//Special
+import "../src/assets/img/Discover-sajek-valley 1.jpg";
+import "../src/assets/img/Discover-sajek-valley 2.jpg";
+import "../src/assets/img/Discover-sajek-valley 3.jpg";
+import "../src/assets/img/china-great-wall-and-mountain 1.jpg";
+import "../src/assets/img/usa-best-places-new-york 1.jpg";
+
+// Icons
+import "../src/assets/img/Star.svg";
+import "../src/assets/img/arrow.svg";
+import "../src/assets/img/place.svg";
 
 /*//Import images
 import "../src/assets/img/01.jpg";

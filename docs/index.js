@@ -2,6 +2,48 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 277:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 1.jpg";
+
+/***/ }),
+
+/***/ 510:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 2.jpg";
+
+/***/ }),
+
+/***/ 891:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 3.jpg";
+
+/***/ }),
+
+/***/ 392:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/Star.svg";
+
+/***/ }),
+
+/***/ 628:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/arrow.svg";
+
+/***/ }),
+
+/***/ 665:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/china-great-wall-and-mountain 1.jpg";
+
+/***/ }),
+
 /***/ 361:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -23,10 +65,24 @@ module.exports = __webpack_require__.p + "assets/img/main-background.jpg";
 
 /***/ }),
 
+/***/ 696:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/place.svg";
+
+/***/ }),
+
 /***/ 795:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/img/seoul.jpg";
+
+/***/ }),
+
+/***/ 892:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/usa-best-places-new-york 1.jpg";
 
 /***/ })
 
@@ -93,15 +149,36 @@ module.exports = __webpack_require__.p + "assets/img/seoul.jpg";
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/* harmony import */ var _src_assets_img_istanbul_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(361);
-/* harmony import */ var _src_assets_img_kl_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(449);
-/* harmony import */ var _src_assets_img_main_background_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(653);
+/* harmony import */ var _src_assets_img_main_background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(653);
+/* harmony import */ var _src_assets_img_istanbul_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(361);
+/* harmony import */ var _src_assets_img_kl_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(449);
 /* harmony import */ var _src_assets_img_seoul_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(795);
+/* harmony import */ var _src_assets_img_Discover_sajek_valley_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(277);
+/* harmony import */ var _src_assets_img_Discover_sajek_valley_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(510);
+/* harmony import */ var _src_assets_img_Discover_sajek_valley_3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(891);
+/* harmony import */ var _src_assets_img_china_great_wall_and_mountain_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(665);
+/* harmony import */ var _src_assets_img_usa_best_places_new_york_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(892);
+/* harmony import */ var _src_assets_img_Star_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(392);
+/* harmony import */ var _src_assets_img_arrow_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(628);
+/* harmony import */ var _src_assets_img_place_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(696);
 //Import Styles
 
 
 //Import images
+//Main
 
+//Popular
+
+
+
+//Special
+
+
+
+
+
+
+// Icons
 
 
 
@@ -345,6 +422,7 @@ function showUp(target) {
     }
   })
 }*/
+
 })();
 
 /******/ })()
