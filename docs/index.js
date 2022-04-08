@@ -30,10 +30,17 @@ module.exports = __webpack_require__.p + "assets/img/Star.svg";
 
 /***/ }),
 
-/***/ 628:
+/***/ 11:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/arrow.svg";
+module.exports = __webpack_require__.p + "assets/img/arrow_left.svg";
+
+/***/ }),
+
+/***/ 962:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/arrow_right.svg";
 
 /***/ }),
 
@@ -159,8 +166,9 @@ var __webpack_exports__ = {};
 /* harmony import */ var _src_assets_img_china_great_wall_and_mountain_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(665);
 /* harmony import */ var _src_assets_img_usa_best_places_new_york_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(892);
 /* harmony import */ var _src_assets_img_Star_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(392);
-/* harmony import */ var _src_assets_img_arrow_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(628);
-/* harmony import */ var _src_assets_img_place_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(696);
+/* harmony import */ var _src_assets_img_arrow_right_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(962);
+/* harmony import */ var _src_assets_img_arrow_left_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(11);
+/* harmony import */ var _src_assets_img_place_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(696);
 //Import Styles
 
 
@@ -179,6 +187,7 @@ var __webpack_exports__ = {};
 
 
 // Icons
+
 
 
 
