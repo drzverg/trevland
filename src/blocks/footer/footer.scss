@@ -25,6 +25,9 @@
       align-items: center;
     }
   }
+  &__contacts {
+    margin-top: 40px;
+  }
   &__logo {
     color: #000000;
   }
@@ -55,6 +58,42 @@
     color: #000000;
     text-decoration: none;
     letter-spacing: 0.06em;
+  }
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  &__link {
+    &_facebook {
+      &::before {
+        content: url("../../assets/img/facebook_ico.svg");
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &_instagram {
+      &::before {
+        content: url("../../assets/img/instagram_ico.svg");
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &_twitter {
+      &::before {
+        content: url("../../assets/img/twitter_ico.svg");
+        width: 20px;
+        height: 20px;
+      }
+    }
+    &_google {
+      &::before {
+        content: url("../../assets/img/google_ico.svg");
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }
 

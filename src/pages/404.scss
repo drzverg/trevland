@@ -14,10 +14,47 @@ body {
   padding-top: 125px;
   width: 100%;
   flex: 1 0 auto;
-  background-image: url("../assets/img/main-background.jpg");
-  background-size: cover;
-  background-position: right;
   z-index: 0;
+  &__title {
+    font-family: "Gelasio";
+    font-weight: 700;
+    font-size: 3.611em;
+    color: #000000;
+    max-width: 500px;
+    @media (max-width: variables.$bp2) {
+      font-size: 3.111em;
+    }
+    @media (max-width: variables.$bp3) {
+      font-size: 2.611em;
+    }
+    @media (max-width: variables.$bp4) {
+      font-size: 2.111em;
+    }
+  }
+  &__text {
+    margin-top: 30px;
+    font-weight: 400;
+    max-width: 60vw;
+    text-align: center;
+  }
+}
+
+.header {
+  &__logo {
+    color: #000000;
+  }
+}
+
+.header-menu {
+  &__link {
+    color: #000000;
+  }
+}
+
+.burger-menu {
+  span {
+    background-color: #000000;
+  }
 }
 
 /*

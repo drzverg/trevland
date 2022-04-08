@@ -17,7 +17,8 @@ import "../src/assets/img/usa-best-places-new-york 1.jpg";
 
 // Icons
 import "../src/assets/img/Star.svg";
-import "../src/assets/img/arrow.svg";
+import "../src/assets/img/arrow_right.svg";
+import "../src/assets/img/arrow_left.svg";
 import "../src/assets/img/place.svg";
 
 /*//Import images
