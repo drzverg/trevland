@@ -122,6 +122,7 @@
     max-width: 581px;
   }
   &__grid-container {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3 1fr);
@@ -131,28 +132,15 @@
       "big smallTop"
       "big smallMiddle"
       "big smallBottom";
+    @media (max-width: variables.$bp1) {
+      grid-template-columns: 1.5fr 2fr;
+    }
+    @media (max-width: variables.$bp2) {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
   }
-  // &__container {
-  //   width: 100%;
-  //   margin-bottom: 140px;
-  //   display: flex;
-  //   flex-direction: row;
-  //   align-items: flex-start;
-  //   gap: 32px;
-  //   @media (max-width: variables.$bp1) {
-  //     flex-direction: column;
-  //     gap: 30px;
-  //   }
-  // }
-  // &__left-side {
-  //   flex: 1 1;
-  // }
-  // &__right-side {
-  //   flex: 1 0;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 30px;
-  // }
 }
 
 //Section title ===============================
@@ -374,21 +362,101 @@
 .news-block {
   &_big {
     grid-area: big;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
   }
   &_small-top {
     grid-area: smallTop;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    @media (max-width: variables.$bp3) {
+      flex-direction: column;
+      gap: 35px;
+    }
   }
   &_small-middle {
     grid-area: smallMiddle;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    @media (max-width: variables.$bp3) {
+      flex-direction: column;
+      gap: 35px;
+    }
   }
   &_small-bottom {
     grid-area: smallBottom;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    @media (max-width: variables.$bp3) {
+      flex-direction: column;
+      gap: 35px;
+    }
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  &__title {
+    font-family: "Gelasio";
+    font-weight: 500;
+    font-size: 1.111em;
+    line-height: 30px;
+    color: #000000;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 1em;
+    color: variables.$textColorGeneral;
+    line-height: 30px;
+  }
+  &__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.111em;
+    color: #000000;
+  }
+}
+
+.news-block_big img {
+  width: 100%;
+  @media (max-width: variables.$bp1) {
+    max-height: 200px;
+  }
+  @media (max-width: variables.$bp2) {
+    width: 263px;
+    border-radius: 10px;
+    align-self: center;
+  }
+}
+
+.news-block_small-top img {
+  max-height: 200px;
+  @media (max-width: variables.$bp2) {
+    width: 263px;
+    border-radius: 10px;
+    align-self: center;
+  }
+}
+.news-block_small-middle img {
+  max-height: 200px;
+  @media (max-width: variables.$bp2) {
+    width: 263px;
+    border-radius: 10px;
+    align-self: center;
+  }
+}
+.news-block_small-bottom img {
+  max-height: 200px;
+  @media (max-width: variables.$bp2) {
+    width: 263px;
+    border-radius: 10px;
+    align-self: center;
   }
 }
 
