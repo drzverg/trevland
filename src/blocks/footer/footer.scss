@@ -2,7 +2,7 @@
 
 .footer {
   box-sizing: border-box;
-  padding-top: 70px;
+  padding-top: 74px;
   padding-bottom: 70px;
   background-color: rgba(38, 148, 153, 0.04);
   &__body {
@@ -15,7 +15,7 @@
   }
   &__content {
     flex: 0 0 186px;
-    margin-right: 107px;
+    margin-right: 105px;
     display: flex;
     flex-direction: column;
     @media (max-width: variables.$bp2) {
@@ -32,18 +32,20 @@
     color: #000000;
   }
   &__subscribe {
-    flex: 0 1 auto;
-    margin-left: 20px;
+    margin-left: 115px;
+    @media (max-width: variables.$bp2) {
+      margin-right: 50px;
+    }
   }
 }
 
 .footer-menu {
-  flex: 1 0 auto;
+  //flex: 1 0 auto;
   display: flex;
   flex-direction: row;
-  gap: 121px;
+  gap: 112px;
   @media (max-width: variables.$bp2) {
-    gap: 60px;
+    gap: 50px;
   }
   @media (max-width: variables.$bp3) {
     display: none;

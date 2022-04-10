@@ -2,27 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 277:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 1.jpg";
-
-/***/ }),
-
-/***/ 510:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 2.jpg";
-
-/***/ }),
-
-/***/ 891:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/img/Discover-sajek-valley 3.jpg";
-
-/***/ }),
-
 /***/ 392:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -44,10 +23,59 @@ module.exports = __webpack_require__.p + "assets/img/arrow_right.svg";
 
 /***/ }),
 
-/***/ 665:
+/***/ 75:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/china-great-wall-and-mountain 1.jpg";
+module.exports = __webpack_require__.p + "assets/img/dsv1.jpg";
+
+/***/ }),
+
+/***/ 459:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/dsv2.jpg";
+
+/***/ }),
+
+/***/ 360:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/dsv3.jpg";
+
+/***/ }),
+
+/***/ 815:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/facebook_ico.svg";
+
+/***/ }),
+
+/***/ 571:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/google_ico.svg";
+
+/***/ }),
+
+/***/ 315:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/great-wall-1.jpg";
+
+/***/ }),
+
+/***/ 824:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/hiroshima-1.jpg";
+
+/***/ }),
+
+/***/ 331:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/instagram_ico.svg";
 
 /***/ }),
 
@@ -65,10 +93,31 @@ module.exports = __webpack_require__.p + "assets/img/kl.jpg";
 
 /***/ }),
 
-/***/ 653:
+/***/ 30:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/main-background.jpg";
+module.exports = __webpack_require__.p + "assets/img/main-background-min.jpg";
+
+/***/ }),
+
+/***/ 464:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/naltar-lake-1.jpg";
+
+/***/ }),
+
+/***/ 436:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/new-york-1.jpg";
+
+/***/ }),
+
+/***/ 116:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/niagara-falls-1.jpg";
 
 /***/ }),
 
@@ -86,10 +135,17 @@ module.exports = __webpack_require__.p + "assets/img/seoul.jpg";
 
 /***/ }),
 
-/***/ 892:
+/***/ 647:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/usa-best-places-new-york 1.jpg";
+module.exports = __webpack_require__.p + "assets/img/twitter_ico.svg";
+
+/***/ }),
+
+/***/ 76:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/img/varanasi-1.jpg";
 
 /***/ })
 
@@ -156,31 +212,48 @@ module.exports = __webpack_require__.p + "assets/img/usa-best-places-new-york 1.
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/* harmony import */ var _src_assets_img_main_background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(653);
+/* harmony import */ var _src_assets_img_main_background_min_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(30);
 /* harmony import */ var _src_assets_img_istanbul_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(361);
 /* harmony import */ var _src_assets_img_kl_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(449);
 /* harmony import */ var _src_assets_img_seoul_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(795);
-/* harmony import */ var _src_assets_img_Discover_sajek_valley_1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(277);
-/* harmony import */ var _src_assets_img_Discover_sajek_valley_2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(510);
-/* harmony import */ var _src_assets_img_Discover_sajek_valley_3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(891);
-/* harmony import */ var _src_assets_img_china_great_wall_and_mountain_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(665);
-/* harmony import */ var _src_assets_img_usa_best_places_new_york_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(892);
-/* harmony import */ var _src_assets_img_Star_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(392);
-/* harmony import */ var _src_assets_img_arrow_right_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(962);
-/* harmony import */ var _src_assets_img_arrow_left_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(11);
-/* harmony import */ var _src_assets_img_place_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(696);
-//Import Styles
+/* harmony import */ var _src_assets_img_dsv1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(75);
+/* harmony import */ var _src_assets_img_dsv2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(459);
+/* harmony import */ var _src_assets_img_dsv3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(360);
+/* harmony import */ var _src_assets_img_great_wall_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(315);
+/* harmony import */ var _src_assets_img_new_york_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(436);
+/* harmony import */ var _src_assets_img_niagara_falls_1_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(116);
+/* harmony import */ var _src_assets_img_hiroshima_1_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(824);
+/* harmony import */ var _src_assets_img_varanasi_1_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(76);
+/* harmony import */ var _src_assets_img_naltar_lake_1_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(464);
+/* harmony import */ var _src_assets_img_Star_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(392);
+/* harmony import */ var _src_assets_img_arrow_right_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(962);
+/* harmony import */ var _src_assets_img_arrow_left_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(11);
+/* harmony import */ var _src_assets_img_place_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(696);
+/* harmony import */ var _src_assets_img_facebook_ico_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(815);
+/* harmony import */ var _src_assets_img_google_ico_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(571);
+/* harmony import */ var _src_assets_img_instagram_ico_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(331);
+/* harmony import */ var _src_assets_img_twitter_ico_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(647);
+// Import Styles =========================
 
 
-//Import images
-//Main
+// Import images =========================
 
-//Popular
-
+// Main
 
 
-//Special
+// Popular
 
+
+
+
+// Special
+
+
+
+
+
+
+// Blog&news
 
 
 
@@ -192,245 +265,11 @@ var __webpack_exports__ = {};
 
 
 
-/*//Import images
-import "../src/assets/img/01.jpg";
-import "../src/assets/img/02.jpg";
-import "../src/assets/img/03.jpg";
-
-const mountains = document.querySelector('.parallax__mountains');
-const hero = document.querySelector('.parallax__hero');
-const siteTitle = document.querySelector('.main__content');
-const socials = document.querySelector('.main__socials');
-
-window.addEventListener('scroll', function() {
-  var value = window.scrollY;
-
-  var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-
-  mountains.style.top = 25 - (value * 0.12) + '%';
-  hero.style.top = 50 - (value * 0.1) + '%';
-
-  siteTitle.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 2));
-  socials.style.opacity = Math.max(0, Math.min(1, -scroll / 300 + 2));
-
-})
-
-const anchors = document.querySelectorAll('a[href*="#"]')
-
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-  e.preventDefault()
-   
-  const blockID = anchor.getAttribute('href').substr(1)
-   
-  document.getElementById(blockID).scrollIntoView({
-  behavior: 'smooth',
-  block: 'center'
-  })
-  })
-}
-
-
-
-const slidebarItems = document.querySelectorAll('.sidebar__item');
-
-for(const slidebarItem of slidebarItems) {
-  slidebarItem.addEventListener("click", ()=> {
-    slidebarItems.forEach((slidebarItem)=> {
-      slidebarItem.classList.remove("sidebar__item_active");
-    })
-  slidebarItem.classList.add("sidebar__item_active");
-  })
-}
-
-
-const scrollImations = (entries, observer) => {
-	entries.forEach((entry) => {
-		if(entry.isIntersecting && entry.intersectionRatio == 1) {
-			
-      console.log(entry);
-		} else {
-			console.log('pau');
-		}
-	});
-}
-
-const options = {
-	threshold: 1.0,
-};
-const observer = new IntersectionObserver(scrollImations, options);
-
-const boxes = document.querySelectorAll('.ancor');
-boxes.forEach((box) => {
-	observer.observe(box);
-});
+// Socials
 
 
 
 
-
-/*
-
-//Slider
-
-import noUiSlider from 'nouislider';
-import '../node_modules/nouislider/dist/nouislider.min.css'
-
-var nonLinearStepSlider = document.getElementById('slider-non-linear-step');
-
-noUiSlider.create(nonLinearStepSlider, {
-    start: [500, 4000],
-    range: {
-        'min': [0],
-        '10%': [500, 500],
-        '50%': [4000, 1000],
-        'max': [9000]
-    }
-});
-
-var nonLinearStepSliderValueElement = document.getElementById('slider-non-linear-step-value');
-
-nonLinearStepSlider.noUiSlider.on('update', function (values) {
-  let cleanValues = [];
-  for (const value of values) {
-    cleanValues.push('$' + Math.round(value));
-  }
-  nonLinearStepSliderValueElement.innerHTML = cleanValues.join(' - ');
-});
-
-const sliderContainer = document.querySelector(".slider__container");
-const sliderHeader = document.querySelector(".slider__header");
-
-sliderHeader.addEventListener("click", ()=> {
-  if(sliderContainer.classList.contains("slider__container_active")) {
-    hideSlider();
-  } else {
-    showSlider();
-  }
-  
-})
-
-function showSlider() {
-  sliderContainer.classList.add("slider__container_active");
-}
-
-function hideSlider() {
-  sliderContainer.classList.remove("slider__container_active");
-}
-
-//Search options
-const searchOptions = document.querySelectorAll(".main-section__search-options-btn");
-
-for (const searchOption of searchOptions) {
-  searchOption.addEventListener("click", ()=> {
-    searchOptions.forEach((searchOption)=> {
-      searchOption.classList.remove("main-section__search-options-btn_active")
-    })
-  searchOption.classList.add("main-section__search-options-btn_active")
-  })
-}
-
-//Search dropdowns
-const dropdowns = document.querySelectorAll('.dropdown');
-const dropdownMenus = document.querySelectorAll('.dropdown__list');
-const dropdownItems = document.querySelectorAll('.dropdown__item');
-const dropdownTexts = document.querySelectorAll('.dropdown__text');
-
-dropdowns.forEach((dropdown, i) => {
-  dropdown.addEventListener('click', () => {
-    showDropdownMenu(i);
-  })
-})
-
-function showDropdownMenu(n) {
-  if(dropdownMenus[n].classList.contains('dropdown__list_active')) {
-    hideDropdowns();
-  }
-  else {
-    hideDropdowns();
-    dropdownMenus[n].classList.add('dropdown__list_active');
-    dropdownTexts[n].classList.add('dropdown__text_target');
-  }
-}
-
-function hideDropdowns() {
-  dropdownMenus.forEach((dropdownMenu) => {
-    dropdownMenu.classList.remove('dropdown__list_active');
-  })
-  dropdownTexts.forEach((dropdownText) => {
-    dropdownText.classList.remove('dropdown__text_target');
-  })
-}
-
-window.addEventListener('click', e => {
-  const target = e.target
-  if (!target.closest('.dropdown__list') && !target.closest('.dropdown')) {
-    hideDropdowns();
-  }
-  if (!target.closest('.slider__container') && !target.closest('.slider__header')) {
-    hideSlider();
-  }
-})
-
-dropdownItems.forEach((item) => {
-  item.addEventListener('click', () => {
-    if (item.textContent.length > 10) {
-      document.querySelector('.dropdown__text_target').textContent = item.textContent.substring(0, 10) + '...';
-    } else {
-      document.querySelector('.dropdown__text_target').textContent = item.textContent;
-    }
-  })
-})
-
-//Like button
-const likes = document.querySelectorAll(".property-card__like");
-
-for (const like of likes) {
-  like.addEventListener("click", ()=> {
-    if (like.classList.contains("property-card__like_clicked")) {
-      like.classList.remove("property-card__like_clicked")
-    }
-    else {
-      like.classList.add("property-card__like_clicked")
-    }
-  })
-}
-
-//Reviews slider
-const slides = document.querySelectorAll(".reviews__block");
-const dots = document.querySelectorAll(".reviews__slider-dot");
-
-dots.forEach((dot, i) => {
-  dot.addEventListener("click", () => {
-    showSlides(i);
-    showUp(slides[i]);
-  })
-})
-
-function showSlides(n) {
-  slides.forEach((slide) => {
-    slide.classList.remove("reviews__block_active")
-  })
-  dots.forEach((dot) => {
-    dot.classList.remove("reviews__slider-dot_active")
-  })
-  slides[n].classList.add("reviews__block_active")
-  dots[n].classList.add("reviews__slider-dot_active")
-}
-
-function showUp(target) {
-  target.style.opacity = 0;
-  var opacity = 0.1;
-  var steps = 5;
-  var d0 = opacity / steps;
-  setInterval(function() {
-    if(opacity <= 1) {
-      opacity += d0;
-      target.style.opacity = opacity;
-      steps++;
-    }
-  })
-}*/
 
 })();
 
