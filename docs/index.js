@@ -23,24 +23,24 @@ module.exports = __webpack_require__.p + "assets/img/arrow_right.svg";
 
 /***/ }),
 
-/***/ 75:
+/***/ 145:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/dsv1.jpg";
+module.exports = __webpack_require__.p + "assets/img/dsv1-min.jpg";
 
 /***/ }),
 
-/***/ 459:
+/***/ 313:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/dsv2.jpg";
+module.exports = __webpack_require__.p + "assets/img/dsv2-min.jpg";
 
 /***/ }),
 
-/***/ 360:
+/***/ 276:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/dsv3.jpg";
+module.exports = __webpack_require__.p + "assets/img/dsv3-min.jpg";
 
 /***/ }),
 
@@ -58,17 +58,17 @@ module.exports = __webpack_require__.p + "assets/img/google_ico.svg";
 
 /***/ }),
 
-/***/ 315:
+/***/ 198:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/great-wall-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/great-wall-1-min.jpg";
 
 /***/ }),
 
-/***/ 824:
+/***/ 355:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/hiroshima-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/hiroshima-1-min.jpg";
 
 /***/ }),
 
@@ -79,17 +79,17 @@ module.exports = __webpack_require__.p + "assets/img/instagram_ico.svg";
 
 /***/ }),
 
-/***/ 361:
+/***/ 323:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/istanbul.jpg";
+module.exports = __webpack_require__.p + "assets/img/istanbul-min.jpg";
 
 /***/ }),
 
-/***/ 449:
+/***/ 564:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/kl.jpg";
+module.exports = __webpack_require__.p + "assets/img/kl-min.jpg";
 
 /***/ }),
 
@@ -100,24 +100,24 @@ module.exports = __webpack_require__.p + "assets/img/main-background-min.jpg";
 
 /***/ }),
 
-/***/ 464:
+/***/ 422:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/naltar-lake-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/naltar-lake-1-min.jpg";
 
 /***/ }),
 
-/***/ 436:
+/***/ 863:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/new-york-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/new-york-1-min.jpg";
 
 /***/ }),
 
-/***/ 116:
+/***/ 449:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/niagara-falls-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/niagara-falls-1-min.jpg";
 
 /***/ }),
 
@@ -128,10 +128,10 @@ module.exports = __webpack_require__.p + "assets/img/place.svg";
 
 /***/ }),
 
-/***/ 795:
+/***/ 197:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/seoul.jpg";
+module.exports = __webpack_require__.p + "assets/img/seoul-min.jpg";
 
 /***/ }),
 
@@ -142,10 +142,10 @@ module.exports = __webpack_require__.p + "assets/img/twitter_ico.svg";
 
 /***/ }),
 
-/***/ 76:
+/***/ 177:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/img/varanasi-1.jpg";
+module.exports = __webpack_require__.p + "assets/img/varanasi-1-min.jpg";
 
 /***/ })
 
@@ -213,18 +213,18 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /* harmony import */ var _src_assets_img_main_background_min_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(30);
-/* harmony import */ var _src_assets_img_istanbul_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(361);
-/* harmony import */ var _src_assets_img_kl_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(449);
-/* harmony import */ var _src_assets_img_seoul_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(795);
-/* harmony import */ var _src_assets_img_dsv1_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(75);
-/* harmony import */ var _src_assets_img_dsv2_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(459);
-/* harmony import */ var _src_assets_img_dsv3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(360);
-/* harmony import */ var _src_assets_img_great_wall_1_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(315);
-/* harmony import */ var _src_assets_img_new_york_1_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(436);
-/* harmony import */ var _src_assets_img_niagara_falls_1_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(116);
-/* harmony import */ var _src_assets_img_hiroshima_1_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(824);
-/* harmony import */ var _src_assets_img_varanasi_1_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(76);
-/* harmony import */ var _src_assets_img_naltar_lake_1_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(464);
+/* harmony import */ var _src_assets_img_istanbul_min_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(323);
+/* harmony import */ var _src_assets_img_kl_min_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(564);
+/* harmony import */ var _src_assets_img_seoul_min_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(197);
+/* harmony import */ var _src_assets_img_dsv1_min_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(145);
+/* harmony import */ var _src_assets_img_dsv2_min_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(313);
+/* harmony import */ var _src_assets_img_dsv3_min_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(276);
+/* harmony import */ var _src_assets_img_great_wall_1_min_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(198);
+/* harmony import */ var _src_assets_img_new_york_1_min_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(863);
+/* harmony import */ var _src_assets_img_niagara_falls_1_min_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(449);
+/* harmony import */ var _src_assets_img_hiroshima_1_min_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(355);
+/* harmony import */ var _src_assets_img_varanasi_1_min_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(177);
+/* harmony import */ var _src_assets_img_naltar_lake_1_min_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(422);
 /* harmony import */ var _src_assets_img_Star_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(392);
 /* harmony import */ var _src_assets_img_arrow_right_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(962);
 /* harmony import */ var _src_assets_img_arrow_left_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(11);
